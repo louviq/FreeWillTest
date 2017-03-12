@@ -1,4 +1,4 @@
-# FreeWillTest
+# Free Will Test
 Can you be random?
 
 Installation:
