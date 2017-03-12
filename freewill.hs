@@ -13,7 +13,7 @@ buildNgrams n xs
   | n <= length xs = take n xs : buildNgrams n (tail xs)
   | otherwise = []
 
-ngramDepth = 3
+ngramDepth = 5
 
 makePrediction :: [Bool] -> Bool
 makePrediction pastInputs
